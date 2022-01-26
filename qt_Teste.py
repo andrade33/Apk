@@ -7,7 +7,7 @@ from PySide6.QtSql import QSqlDatabase, QSqlTableModel
 
 from ui import main
 
-
+#DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 class MyQtApp(main.Ui_My_App, QtWidgets.QMainWindow):
     def __init__(self):
         super(MyQtApp, self).__init__()
