@@ -6,7 +6,7 @@ import pandas
 from PySide6.QtSql import QSqlDatabase, QSqlTableModel
 
 from ui import main
-
+#FFFFFFFFFF
 
 class MyQtApp(main.Ui_My_App, QtWidgets.QMainWindow):
     def __init__(self):
@@ -23,7 +23,6 @@ class MyQtApp(main.Ui_My_App, QtWidgets.QMainWindow):
 
         #self.populate_table_DB()
         self.table_geral()
-
 
         """ 
         def populate_tree(self):
